@@ -38,7 +38,7 @@ const Navbar = () => {
   }, [])
 
   return (
-    <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100] bg-[#ecf0f3] text-[#1f2937] dark:bg-gray-900 dark:text-white' : 'fixed w-full h-20 z-[100] bg-[#ecf0f3] text-[#1f2937] dark:bg-gray-900 dark:text-white'}>
+    <div className={shadow ? 'fixed w-full shadow-xl z-[100] bg-[#ecf0f3] text-[#1f2937] dark:bg-gray-900 dark:text-white' : 'fixed w-full z-[100] bg-[#ecf0f3] text-[#1f2937] dark:bg-gray-900 dark:text-white'}>
       <div className="max-w-[1240px] mx-auto flex justify-between items-center w-full px-5">
         <Link to="/">
           <img src="/assets/logo.png" alt="Image" width="60" height="60" />
